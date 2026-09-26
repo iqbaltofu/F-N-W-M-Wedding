@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Undangan Tasyakuran Pernikahan Faiz &amp; Nita — Wahyu &amp; Mila</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Pinyon+Script&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<!-- Open Graph / WhatsApp / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Undangan Pernikahan: Faiz & Nita — Wahyu & Mila">
+<meta property="og:description" content="Tanpa mengurangi rasa hormat, kami mengundang Bapak/Ibu/Saudara/i untuk hadir di acara pernikahan putra-putri kami.">
+<meta property="og:image" content="https://domain-undangan-anda.com/assets/foto/Foto.jpeg">
+<meta property="og:url" content="https://domain-undangan-anda.com/">
+</head>
+<body>
+
+<!-- COVER -->
+<div id="cover">
+  <div class="top">Undangan Tasyakuran Pernikahan</div>
+  <div class="names" data-bind="nick"></div>
+  <div class="to"><small>Kepada Yth. Bapak/Ibu/Saudara/i</small><b id="guest">Tamu Undangan</b></div>
+  <p style="font-size:.8rem;opacity:.85">Maaf bila ada kesalahan penulisan nama dan gelar</p>
+  <button class="btn fill" id="openBtn">Buka Undangan</button>
+</div>
+
+<!-- HOME -->
+<section id="home">
+  <div class="fade">
+    <p class="serif">Undangan Tasyauran Pernikahan</p>
+    <div class="names" data-bind="nick"></div>
+    <p id="dateText"></p>
+    <div id="count" aria-live="off"></div>
+    <a class="btn" id="saveDate" target="_blank" rel="noopener">Simpan ke Kalender</a>
+  </div>
+</section>
+
+<!-- SALAM & AYAT -->
+<section class="tint">
+  <div class="wrap">
+    <h2>Assalamu'alaikum Wr. Wb.</h2>
+    <p>Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud menyelenggarakan pernikahan putra-putri kami, dan dengan hormat mengundang Bapak/Ibu/Saudara/i untuk berkenan hadir.</p>
+    <p class="serif" style="margin-top:22px">“Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang.”</p>
+    <p style="margin-top:8px"><b>QS. Ar-Rum: 21</b></p>
+  </div>
+</section>
+
+<!-- MEMPELAI (dua pasang) -->
+<section id="couples"></section>
+
+<!-- ACARA (satu kartu bersama) -->
+<section id="events" class="tint">
+  <div class="wrap">
+    <h2>Waktu dan Tempat</h2>
+    <p style="margin-bottom:6px">Insya Allah tasyakuran pernikahan akan diselenggarakan pada:</p>
+    <div class="events" id="eventList"></div>
+  </div>
+</section>
+
+<!-- HADIAH -->
+<section id="gift" class="dark">
+  <div class="wrap">
+    <h2>Hadiah Pernikahan</h2>
+    <p>Kehadiran dan doa restu Bapak/Ibu/Saudara/i sudah sangat berarti bagi kami. Bila berkenan memberikan tanda kasih, dapat melalui:</p>
+    <div id="giftList"></div>
+  </div>
+</section>
+
+<!-- UCAPAN -->
+<section id="rsvp">
+  <div class="wrap">
+    <h2>Konfirmasi &amp; Ucapan</h2>
+    <form id="form">
+      <input id="fName" placeholder="Nama" required>
+      <select id="fAtt"><option>Hadir</option><option>Tidak Hadir</option><option>Masih Ragu</option></select>
+      <input id="fNum" type="number" min="1" max="10" value="1" aria-label="Jumlah tamu">
+      <textarea id="fMsg" rows="3" placeholder="Tulis ucapan &amp; doa" required></textarea>
+      <button class="btn fill" type="submit">Kirim</button>
+    </form>
+    <div class="wishes" id="wishes"></div>
+  </div>
+</section>
+
+<footer>
+  <p class="serif">Merupakan suatu kehormatan dan kebahagiaan bagi kami sekeluarga apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu kepada putra-putri kami. Atas kehadiran dan doa restunya, kami ucapkan terima kasih.</p>
+  <p style="margin-top:14px">Wassalamu'alaikum Wr. Wb.</p>
+  <p style="margin-top:22px">Kami yang berbahagia,</p>
+  <h3 style="margin-top:6px">Bapak Sudarsono &amp; Ibu Sriyati</h3>
+  <h3>Bapak Askandar &amp; Ibu Ma'rufah</h3>
+  <h3>Bapak Toip (Alm.) &amp; Ibu Sumarti</h3>
+  <p>beserta keluarga besar</p>
+</footer>
+
+<nav aria-label="Navigasi">
+  <a href="#home">Home</a><a href="#couples">Mempelai</a><a href="#events">Acara</a><a href="#gift">Hadiah</a><a href="#rsvp">Ucapan</a>
+</nav>
+<button id="music" aria-label="Putar/jeda musik">♪</button>
+<audio id="audio" loop></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
