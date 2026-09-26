@@ -6,7 +6,7 @@ const C = {
   couples: [
     {
       nick: "Faiz & Nita",
-      groom: { name: "Muhammad Faiz Rizkia Ilhamy", child: "Putra dari Bapak Sudarsono & Ibu Sriyati<br><small>Guyangan Kauman RT 01 RW 06, Bangsri, Jepara, Jawa Tengah</small>", photo: "assets/foto/Foto.jpeg" },
+      groom: { name: "Muhammad Faiz Rizkia Ilhamy", child: "Putra dari Bapak Sudarsono & Ibu Sriyati<br><small>Guyangan Kauman RT 01 RW 06, Bangsri, Jepara, Jawa Tengah</small>", photo: "assets/foto/foto.jpeg" },
       bride: { name: "Anita Mazidah", child: "Putri dari Bapak Askandar & Ibu Ma'rufah<br><small>Guyangan Seberuk RT 02 RW 09, Bangsri, Jepara, Jawa Tengah</small>", photo: "assets/foto/foto2.jpeg" }
     },
     {
