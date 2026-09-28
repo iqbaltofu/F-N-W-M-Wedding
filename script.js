@@ -23,7 +23,7 @@ const C = {
     date: "2026-10-03T19:00:00+07:00",   // dipakai untuk countdown & kalender
     time: "19.00 WIB – Selesai",
     place: "Rumah Mempelai Pria",
-    addr: "Guyangan Kauman RT 01 RW 06, Bangsri, Jepara",
+    addr: "Jl. Timur Perempatan Sukun, Guyangan Kauman RT 01 RW 06, Bangsri, Jepara, Jawa Tengah",
     map: "https://maps.app.goo.gl/yoWrunErMtxYnacw7"
   },
 
