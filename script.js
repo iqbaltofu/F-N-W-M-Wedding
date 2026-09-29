@@ -6,12 +6,12 @@ const C = {
   couples: [
     {
       nick: "Faiz & Nita",
-      groom: { name: "Muhammad Faiz Rizkia Ilhamy", child: "Putra dari Bapak Sudarsono & Ibu Sriyati<br><small>Guyangan Kauman RT 01 RW 06, Bangsri, Jepara, Jawa Tengah</small>", photo: "assets/foto/foto.jpeg" },
+      groom: { name: "Muhammad Faiz Rizkia Ilhamy", child: "Putra dari Bapak Sudarsono & Ibu Sriyati, M.Pd.<br><small>Guyangan Kauman RT 01 RW 06, Bangsri, Jepara, Jawa Tengah</small>", photo: "assets/foto/foto.jpeg" },
       bride: { name: "Anita Mazidah, AH.", child: "Putri dari Bapak Askandar & Ibu Ma'rufah<br><small>Guyangan Seberuk RT 02 RW 09, Bangsri, Jepara, Jawa Tengah</small>", photo: "assets/foto/foto2.jpeg" }
     },
     {
       nick: "Wahyu & Mila",
-      groom: { name: "Muhammad Iqbal Wahyu Rizaldi, S.Hub.Int.", child: "Putra dari Bapak Sudarsono & Ibu Sriyati<br><small>Guyangan Kauman RT 01 RW 06, Bangsri, Jepara, Jawa Tengah</small>", photo: "assets/foto/foto3.jpeg" },
+      groom: { name: "Muhammad Iqbal Wahyu Rizaldi, S.Hub.Int.", child: "Putra dari Bapak Sudarsono & Ibu Sriyati, M.Pd.<br><small>Guyangan Kauman RT 01 RW 06, Bangsri, Jepara, Jawa Tengah</small>", photo: "assets/foto/foto3.jpeg" },
       bride: { name: "Milatuzzulfa, S.Pd.", child: "Putri dari Bapak Toip (Alm.) & Ibu Sumarti<br><small>Desa Pepedan RT 01 RW 01, Moga, Pemalang, Jawa Tengah</small>", photo: "assets/foto/foto4.jpeg" }
     }
   ],
