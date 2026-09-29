@@ -12,7 +12,7 @@ const C = {
     {
       nick: "Wahyu & Mila",
       groom: { name: "Muhammad Iqbal Wahyu Rizaldi, S.Hub.Int.", child: "Putra dari Bapak Sudarsono & Ibu Sriyati, M.Pd.<br><small>Guyangan Kauman RT 01 RW 06, Bangsri, Jepara, Jawa Tengah</small>", photo: "assets/foto/foto3.jpeg" },
-      bride: { name: "Milatuzzulfa, S.Pd.", child: "Putri dari Bapak Toip (Alm.) & Ibu Sumarti<br><small>Desa Pepedan RT 01 RW 01, Moga, Pemalang, Jawa Tengah</small>", photo: "assets/foto/foto4.jpeg" }
+      bride: { name: "Milatuzzulfa, S.Pd.", child: "Putri dari Bapak H. Toip (Alm.) & Ibu Hj. Sumarti<br><small>Desa Pepedan RT 01 RW 01, Moga, Pemalang, Jawa Tengah</small>", photo: "assets/foto/foto4.jpeg" }
     }
   ],
 
